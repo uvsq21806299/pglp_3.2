@@ -9,9 +9,7 @@ package fr.uvsq.pglp_3;
  *
  * @author andri
  */
-public abstract class CalculSalaire {
-    private String nom;
-    private String adresse;
+public interface CalculSalaire {
     
     public abstract double calculSalaire();
 }

@@ -10,7 +10,8 @@ package fr.uvsq.pglp_3;
  * @author andri
  */
 public class Vendeur extends Employe{
-    private double commission = 0;
+    private double commission;
+    
     @Override
     public double calculSalaire() {
         
